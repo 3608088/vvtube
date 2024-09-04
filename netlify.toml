@@ -1,0 +1,6 @@
+[[redirects]]
+from = "/*"
+to = "https://vtsuru.live/:splat"
+status = 200
+force = false
+headers = {Host = "vtsuru.live", X-Forwarded-Host = "vtsuru.live"}
